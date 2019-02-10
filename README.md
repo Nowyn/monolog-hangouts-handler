@@ -1,0 +1,1 @@
+A simple monolog handler for Google Hangouts Chat webhooks

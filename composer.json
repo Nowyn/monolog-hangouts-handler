@@ -1,0 +1,21 @@
+{
+  "name": "nowyn/monolog-hangouts-handler",
+  "description": "A simple monolog handler for Google Hangouts Chat webhooks",
+  "type": "library",
+  "require": {
+    "monolog/monolog":"*",
+    "guzzlehttp/guzzle":"*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Elena Danilova",
+      "email": "danilova.elena.v@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Monolog\\": "src"
+    }
+  }
+}
