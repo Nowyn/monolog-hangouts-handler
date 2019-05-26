@@ -21,7 +21,7 @@ class HangoutsChatFormatter implements FormatterInterface
             $message = strlen($record['message']) > 4000 ? substr($record['message'], 0, 4000)."..." : $record['message'];
         }
         if ($record['extra'] && $record['extra'] !== []) {
-            $message .= "\n```".$record['extrta'];
+            $message .= "\n```".$record['extra'];
             $message = strlen($message) > 4000 ? substr($message, 0, 4000)."...```" : $message."```";
         }
 
